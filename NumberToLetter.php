@@ -173,7 +173,7 @@ class NumberToLetter{
         $letrasCentavos = "";
 
         if ($centavos > 0){
-            $letrasCentavos = "CON ".$this->Decenas($centavos)." CENTAVOS";//."/100";
+            $letrasCentavos = "CON ".$this->Decenas($centavos)." CENTAVOS";
         }
 
         if($enteros == 0){
